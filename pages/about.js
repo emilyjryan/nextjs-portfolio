@@ -5,34 +5,22 @@ import styles from "../styles/About.module.css"
 export default function About() {
     return (
         <div>
-            <h1>About Me</h1>
+            <h1>About Emily</h1>
 
-            {/* more than one style can use string interpolation */}
-            <p className={styles.coolColor}>I am now a super cool software engineer</p>
-
-            <p>{`don't use apostrophes unless they are in back ticks`}</p>
-
-            <h2>I am a different color</h2>
-
-            {/* styled jsx is great for conditional rendering, will apply to all elements on that page */}
-
-            <style jsx>{`
-                h2 {
-                    color: hotpink;
-                }
-                `}</style>
-
-            {/* 2 ways to render pics: stored locally and url */}
             <img
                 src='/next.svg'
                 alt='logo of my new fav framework'
             />
+            <p className={styles.coolColor}>{`Hey there! I'm a software engineer with a keen eye for detail and passion for learning. Through my background in nursing and biology, I've developed a flexible and patient approach to problem solving. Feel free to check out my projects. And drop me a note to say hi! 👋🏼`}</p>
 
-            {/* getting img from outside source */}
-            <img
-                src='https://placekitten.com/300/600'
-                alt='magnificient kitteh'
-            />
+            <h2>I am a different color</h2>
+
+            <style jsx>{`
+                h2 {
+                    color: green;
+                }
+                `}</style>
+
         </div>
     )
 }

@@ -6,13 +6,22 @@ export default function Navbar() {
     return (
         <nav>
             <Link href="/">
-                {/* links take any child components */}
                 Home |
             </Link>
 
             <Link href="/about">
-                | About Meeee
+                | About
             </Link>
+
+            <Link href="/projects">
+                | Projects
+            </Link>
+
+            <Link href="/contact">
+                | Contact
+            </Link>
+
+            
 
             <a
                 href="url">
