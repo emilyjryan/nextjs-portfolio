@@ -10,11 +10,15 @@ export default function Navbar() {
             </Link>
 
             <Link href="/about">
-                | About
+                | About |
             </Link>
 
             <Link href="/projects">
-                | Projects
+                | Projects |
+            </Link>
+
+            <Link href="/resume">
+                | Resume |
             </Link>
 
             <Link href="/contact">
