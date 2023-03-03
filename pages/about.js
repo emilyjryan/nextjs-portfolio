@@ -5,21 +5,9 @@ import styles from "../styles/About.module.css"
 export default function About() {
     return (
         <div>
-            <h1>About Emily</h1>
+            <h1>A little about Emily</h1>
 
-            <img
-                src='/next.svg'
-                alt='logo of my new fav framework'
-            />
-            <p className={styles.coolColor}>{`Hey there! I'm a software engineer with a keen eye for detail and passion for learning. Through my background in nursing and biology, I've developed a flexible and patient approach to problem solving. Feel free to check out my projects. And drop me a note to say hi! 👋🏼`}</p>
-
-            <h2>I am a different color</h2>
-
-            <style jsx>{`
-                h2 {
-                    color: green;
-                }
-                `}</style>
+            <p className={styles.coolColor}>{`Hey there! I'm a software engineer with a background in medicine and biology. I'm passionate about developing innovative technology to improve the user experience. In my five years of nursing, I have honed my ability to think critically under pressure, collaborate inclusively with coworkers, and advocate strongly for patients and families. Compassion, concise communication, and effective teaching skills have characterized my past work experience. I have an innate curiosity and eagerness to learn, with a keen eye for patterns and sharp attention to detail. I face new challenges head-on and take a flexible and creative approach to problem solving. I look forward to applying my unique skills and strengths to make a positive impact on the world of tech! Feel free to check out my projects. And drop me a note to say hi! 👋🏼`}</p>
 
         </div>
     )
