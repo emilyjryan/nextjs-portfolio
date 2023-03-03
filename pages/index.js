@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>E M I L Y | R Y A N</h1>
+        <h1>Software Engineer</h1>
       </main>
     </>
   )
