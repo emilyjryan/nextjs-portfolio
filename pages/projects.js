@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Projects() {
     return (
         <div>
-            <h1>My Projects</h1>
+            <h1>Check out my latest projects:</h1>
 
             <div>
             <h2>Language Quiz</h2>
