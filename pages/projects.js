@@ -33,13 +33,13 @@ export default function Projects() {
             <a href="https://discover-drug-app-deploy.herokuapp.com/">Live Deployment</a>
             <br/>
             <br/>
-            <Image src={"/pics/discover-drug/welcome.png"} alt="welcome" width={400} height={200}/>
+            <Image src={"/pics/discover-drug/welcome.png"} alt="welcome" width={400} height={230}/>
           
-            <Image src={"/pics/discover-drug/results.png"} alt="search results" width={400} height={220}/>
+            <Image src={"/pics/discover-drug/results.png"} alt="search results" width={400} height={230}/>
           
-            <Image src={"/pics/discover-drug/details.png"} alt="details" width={400} height={300}/>
+            <Image src={"/pics/discover-drug/details.png"} alt="details" width={400} height={230}/>
           
-            <Image src={"/pics/discover-drug/favorites.png"} alt="favorites" width={400} height={250}/>
+            <Image src={"/pics/discover-drug/favorites.png"} alt="favorites" width={400} height={230}/>
           
             </div>
             <div>
@@ -53,13 +53,13 @@ export default function Projects() {
             <a href="https://main--vermillion-melba-389997.netlify.app/">Live Deployment</a>
             <br/>
             <br/>
-            <Image src={"/pics/sustain-able/welcome.png"} alt="welcome" width={400} height={300}/>
+            <Image src={"/pics/sustain-able/welcome.png"} alt="welcome" width={400} height={350}/>
       
-            <Image src={"/pics/sustain-able/login.png"} alt="login" width={400} height={300}/>
+            <Image src={"/pics/sustain-able/login.png"} alt="login" width={400} height={350}/>
       
-            <Image src={"/pics/sustain-able/profile-and-favs.png"} alt="profile and favorites" width={400} height={380}/>
+            <Image src={"/pics/sustain-able/profile-and-favs.png"} alt="profile and favorites" width={400} height={350}/>
       
-            <Image src={"/pics/sustain-able/create-new.png"} alt="create new habit" width={400} height={380}/>
+            <Image src={"/pics/sustain-able/create-new.png"} alt="create new habit" width={400} height={350}/>
       
             </div>
             <div>
