@@ -6,28 +6,28 @@ import styles from "../styles/Home.module.css"
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <button>
-            <Link className={styles.link} href="/">
+            <button className={styles.link}>
+            <Link  href="/">
                 Home
             </Link>
             </button>
-            <button>
-            <Link className={styles.link} href="/about">
+            <button className={styles.link}>
+            <Link  href="/about">
                 About
             </Link>
             </button>
-            <button>
-            <Link className={styles.link} href="/projects">
+            <button className={styles.link}>
+            <Link  href="/projects">
                 Projects
             </Link>
             </button>
-            <button>
-            <Link className={styles.link} href="/resume">
+            <button className={styles.link}>
+            <Link  href="/resume">
                 Resume
             </Link>
             </button>
-            <button>
-            <Link className={styles.link} href="/contact">
+            <button className={styles.link}>
+            <Link  href="/contact">
                 Contact
             </Link>
             </button>
