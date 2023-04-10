@@ -1,3 +1,5 @@
+
+
 .main {
   display: flex;
   flex-direction: column;
@@ -20,10 +22,11 @@
 .link {
 
   font-size: 15px;
-  border: 2px solid purple;
+  border: 2px solid white;
   border-radius: 10px;
   padding: 10px;
-  hover: 
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .link:hover {
