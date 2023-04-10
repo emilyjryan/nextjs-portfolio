@@ -1,9 +1,12 @@
 import Head from 'next/head'
+import Main from '@/components/Main'
+import About from '@/components/About'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import Navbar from '@/components/Navbar'
 
-import { Inter } from '@next/font/google'
-const inter = Inter({ subsets: ['latin'] })
+// import { Inter } from '@next/font/google'
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -19,10 +22,9 @@ export default function Home() {
         {/* <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Slab&family=Unbounded&display=swap" rel="stylesheet"></link> */}
 
       </Head>
-      <main className={styles.main}>
-        <h1>E M I L Y | R Y A N</h1>
-        <h1>Software Engineer</h1>
-      </main>
+      <Navbar/>
+      <Main/>
+      <About/>
     </>
   )
 }
