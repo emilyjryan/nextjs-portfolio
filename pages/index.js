@@ -16,7 +16,7 @@ export default function Home() {
 
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
-        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Slab&family=Unbounded&display=swap" rel="stylesheet"></link>
+        {/* <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Slab&family=Unbounded&display=swap" rel="stylesheet"></link> */}
 
       </Head>
       <main className={styles.main}>
