@@ -10,13 +10,13 @@ const Main = () => {
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Let's build something together</p>
                 <h1 className='py-4 text-gray-700'>
-                    Hi, I'm <span className='text-[#5651e5]'>Emily</span>
+                    Hey there, I'm <span className='text-[#5651e5]'>Emily</span>
                 </h1>
                 <h1 className='py-4 text-gray-700'>
-                    A Front-End Web Developer
+                    A Full-Stack Software Engineer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I'm a front-end developer with a background in biology and healthcare, ready to make a difference in the world of biotech
+                    I'm a software engineer with a background in biology and healthcare, ready to make a difference in the world of biotech
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
