@@ -14,7 +14,7 @@ const About = () => {
                     <p className='py-2 text-gray-600'>
                         Another chunk of informative text
                     </p>
-                    <p className='py-2 text-gray-600'>Check out some of my latest <span className='underline cursor-pointer'>projects</span></p>
+                    <p className='py-2 text-gray-600'>Check out some of my latest <span className='underline cursor-pointer'><a href='/#projects'>projects</a></span></p>
                 </div>
                 <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                     <Image className='rounded-xl'

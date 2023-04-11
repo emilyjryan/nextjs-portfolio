@@ -22,8 +22,8 @@ const discoverdrug = () => {
           <p>
           DiscoverDrug is an app that allows users to look up specific drugs to get their generic and brand names as well as route and administration instructions. Users can create a profile with an email and password, and then they can search the FDA's vast API to see details about any drug. They can also save different drugs that they may want to return to in the future. Additionally, users can add a comment on specific drugs, noting any side effects or tips and tricks they may want to share with the rest of the users.
           </p>
-          <button href='https://discover-drug-app-deploy.herokuapp.com/' className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button href='https://github.com/emilyjryan/project-two' className='px-8 py-2 mt-4'>Code</button>
+          <button className='px-8 py-2 mt-4 mr-8'><a href='https://discover-drug-app-deploy.herokuapp.com'>Demo</a></button>
+          <button className='px-8 py-2 mt-4'><a href='https://github.com/emilyjryan/project-two'>Code</a></button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

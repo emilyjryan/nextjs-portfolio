@@ -1,5 +1,4 @@
 import React from 'react'
-import p1img from '../public/projects/language-game/example-phrase.png'
 import Link from 'next/link'
 import Image from 'next/image'
 
