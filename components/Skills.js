@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import html from '../public/assets/skills/html.png'
 import css from '../public/assets/skills/css.png'
+import javascript from '../public/assets/skills/js.png'
 import typescript from '../public/assets/skills/typescript.png'
 import react from '../public/assets/skills/react.webp'
 import github from '../public/assets/skills/github.png'
@@ -56,7 +57,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image
-                                src='/../public/assets/skills/js.png'
+                                src={javascript}
                                 alt='/'
                                 width='64'
                                 height='64'
