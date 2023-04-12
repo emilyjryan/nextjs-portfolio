@@ -58,22 +58,22 @@ const Navbar = () => {
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 p-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Home</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 p-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>About</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 p-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Skills</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Skills</li>
                         </Link>
                         <Link href='/#resume'>
-                            <li className='ml-10 p-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Resume</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Resume</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 p-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Projects</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 p-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Contact</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Contact</li>
                         </Link>
                     </ul>
 
