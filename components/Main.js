@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import Link from 'next/link'
 
 const Main = () => {
     return (
@@ -15,21 +16,35 @@ const Main = () => {
                     A Full-Stack Software Engineer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I'm a software engineer with a background in biology and healthcare, ready to make a difference in the world of biotech.
+                    I'm a software engineer with a background in biology and healthcare, ready to make a difference in the world of tech.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+                    <a
+                        href='https://www.linkedin.com/in/emilyjudithryan/'
+                        target='_blank'
+                        rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedinIn/>
                     </div>
+                    </a>
+                    <a
+                        href='https://github.com/emilyjryan'
+                        target='_blank'
+                        rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub/>
                     </div>
+                    </a>
+                    <a href='mailto:emilyryandev@gmail.com?body=Hey Emily, excited to connect!'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail/>
                     </div>
+                    </a>
+                    <Link href='#resume'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsPersonLinesFill/>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>

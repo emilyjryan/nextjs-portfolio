@@ -34,13 +34,13 @@ const discoverdrug = () => {
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>CSS</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Bootstrap</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Axios</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Express</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Node</p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Express JS</p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Node JS</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Method Override</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>PostgreSQL</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Sequelize</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Cookie-parser</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Crypto-JS</p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Crypto JS</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Dotenv</p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>EJS</p>
             </div>
