@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Main = () => {
     return (
       <div id='home' className='w-full h-screen'>
-        <div className='max-w-[1240px] w-full h-full p-2 flex justify-center items-center'>
+        <div className='max-w-[1240px] w-full h-full py-4 flex justify-center items-center'>
             <div>
                 <h1 className='py-4 text-gray-700'>
                     Hey there, I'm <span className='text-[#87ACA3] animate-pulse'>Emily</span>

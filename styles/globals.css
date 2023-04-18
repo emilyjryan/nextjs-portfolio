@@ -7,8 +7,16 @@ html {
 }
 
 @layer base {
+  @font-face {
+    font-family: 'Cabin';
+    src: url('/fonts/Cabin-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide font-cabin
   }
 
   h1, h2, h3, h4, h5, h6 {

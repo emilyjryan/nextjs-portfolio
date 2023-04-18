@@ -6,7 +6,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        pacifico: 'Pacifico, cursive',
+        cabin: 'Cabin'
+      }
+    },
   },
   plugins: [],
 }
