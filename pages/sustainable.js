@@ -24,8 +24,8 @@ const sustainable = () => {
           <p className='p-4'>That's where sustainABLE comes in. The sustainABLE app provides an online community to like-minded individuals who want to do their part in changing the world one small step at a time. Users can register for an account and add the sustainABLE habits that they use everyday. When a user finds a habit they like and want to incorporate into their daily lives, they can favorite it to reference in the future.</p>
      
           <p className='p-4'>Other contributors: Curtlen Aumiller, Cailin Shaffer</p>
-          <button className='px-8 py-2 mt-4 mr-8'><a href='https://main--vermillion-melba-389997.netlify.app/'>Demo</a></button>
-          <button className='px-8 py-2 mt-4'><a href='https://github.com/emilyjryan/sustainABLE-client'>Code</a></button>
+          <button className='px-8 py-2 mt-4 mr-8'><a href='https://main--vermillion-melba-389997.netlify.app/' target='_blank' rel='noreferrer'>Demo</a></button>
+          <button className='px-8 py-2 mt-4'><a href='https://github.com/emilyjryan/sustainABLE-client' target='_blank' rel='noreferrer'>Code</a></button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

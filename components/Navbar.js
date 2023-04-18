@@ -10,7 +10,7 @@ import { useRouter } from 'next/router'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false)
-    const [navBg, setNavBg] = useState('#ecf0f3')
+    const [navBg, setNavBg] = useState('linear-gradient(#87ACA3, #b4eadc)')
     const [linkColor, setLinkColor] = useState('#1f2937')
     const router = useRouter()
 
@@ -25,7 +25,7 @@ const Navbar = () => {
             setLinkColor('#ecf0f3')
 
         } else {
-            setNavBg('#ecf0f3')
+            setNavBg('linear-gradient(#87ACA3, #b4eadc)')
             setLinkColor('#1f2937')
         }
     }, [router])
@@ -47,34 +47,34 @@ const Navbar = () => {
 
     return (
         <div 
-        style={{backgroundColor: `${navBg}`}}
+        style={{background: `${navBg}`}}
         className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Image
+                <Link href='/'><Image
                     src={logo}
                     alt='/'
                     width='125'
                     height='50'
-                />
+                /></Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Home</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:text-white hover:scale-150 ease-in duration-200'>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>About</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:text-white hover:scale-150 ease-in duration-200'>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Skills</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:text-white hover:scale-150 ease-in duration-200'>Skills</li>
                         </Link>
                         <Link href='/#resume'>
-                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Resume</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:text-white hover:scale-150 ease-in duration-200'>Resume</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Projects</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:text-white hover:scale-150 ease-in duration-200'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:bg-gradient-to-r from-[#904e55] to-[#efd6d2]'>Contact</li>
+                            <li className='ml-1 px-6 py-4 rounded text-sm uppercase hover:text-white hover:scale-150 ease-in duration-200'>Contact</li>
                         </Link>
                     </ul>
 
