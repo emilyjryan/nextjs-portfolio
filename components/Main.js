@@ -1,3 +1,5 @@
+// This portfolio was created relying heavily on Clint Briley's Next.js portfolio tutorial: https://www.youtube.com/watch?v=CMx51wpd7g4
+
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsPersonLinesFill } from 'react-icons/bs'
