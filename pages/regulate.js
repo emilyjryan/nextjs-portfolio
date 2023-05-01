@@ -23,7 +23,7 @@ const regulate = () => {
           Having and maintaining a consistent routine and daily structure is vital to making a child with special needs such as autism feel safe, supported, and regulated. This is an app designed for these children to help them practice good habits that promote independence. Habits include managing a schedule and completing important daily tasks, developing healthy coping strategies for times of frustration or overstimulation, and identifying specific emotions in order to express themselves and their needs better.
           </p>
           <button className='px-8 py-2 mt-4 mr-8'><a href='https://unique-lollipop-eb6497.netlify.app/' target='_blank' rel='noreferrer'>Demo</a></button>
-          <button className='px-8 py-2 mt-4'><a href='https://github.com/emilyjryan/project-4' target='_blank' rel='noreferrer'>Code</a></button>
+          <button className='px-8 py-2 mt-4'><a href='https://github.com/emilyjryan/regulate-app' target='_blank' rel='noreferrer'>Code</a></button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
