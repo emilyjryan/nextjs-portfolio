@@ -18,7 +18,7 @@ const Main = () => {
                     A Full-Stack Software Engineer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%]'>
-                    I'm a software engineer with a background in biology and healthcare, ready to make a difference in the world of tech.
+                    I'm a software engineer with a background in biology and neurosurgical nursing, ready to make a difference in the world of tech.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] py-4'>
                     <a
